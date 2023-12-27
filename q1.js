@@ -10,4 +10,4 @@ let produto = {
     quantidade: 1
 };
 
-console.log(calcularValorTotal(produto))
+console.log(calcularValorTotal(produto));
