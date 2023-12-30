@@ -37,19 +37,19 @@
 24. Escreva um código que utilize async/await para fazer uma série de chamadas assíncronas sequenciais.
 
 # Promise:
-26. Crie uma função que retorne uma Promise que é resolvida após um tempo aleatório (entre 1 e 5 segundos) com a mensagem "Concluído com sucesso!".
-27. Escreva um código que utilize Promise.all para lidar com um array de Promises que representam chamadas assíncronas.
-28. Crie uma função que retorna uma Promise que é rejeitada após um tempo aleatório (entre 1 e 5 segundos) com a mensagem "Erro inesperado!".
-29. Implemente uma função que use Promise.race para retornar a primeira Promise que é resolvida entre duas chamadas assíncronas.
+25. Crie uma função que retorne uma Promise que é resolvida após um tempo aleatório (entre 1 e 5 segundos) com a mensagem "Concluído com sucesso!".
+26. Escreva um código que utilize Promise.all para lidar com um array de Promises que representam chamadas assíncronas.
+27. Crie uma função que retorna uma Promise que é rejeitada após um tempo aleatório (entre 1 e 5 segundos) com a mensagem "Erro inesperado!".
+28. Implemente uma função que use Promise.race para retornar a primeira Promise que é resolvida entre duas chamadas assíncronas.
 
 # Fetch API:
-30. Crie uma função que faça uma requisição POST utilizando a Fetch API para enviar dados para um servidor.
-31. Faça uma chamada à Fetch API para obter informações sobre um usuário com base em seu ID.
-32. Faça uma chamada à Fetch API para obter dados de um serviço de previsão do tempo com base na localização fornecida pelo usuário.
-33. Utilize a Fetch API para fazer uma requisição DELETE a uma API que exclui um recurso específico.
+29. Crie uma função que faça uma requisição POST utilizando a Fetch API para enviar dados para um servidor.
+30. Faça uma chamada à Fetch API para obter informações sobre um usuário com base em seu ID.
+31. Faça uma chamada à Fetch API para obter dados de um serviço de previsão do tempo com base na localização fornecida pelo usuário.
+32. Utilize a Fetch API para fazer uma requisição DELETE a uma API que exclui um recurso específico.
 
 # setTimeout:
-34. Utilize setTimeout para criar um temporizador que exiba uma contagem regressiva no console a cada segundo, começando de 10.
-36. Crie uma função que use setTimeout para simular um atraso de carregamento e retorne uma Promise que é resolvida após esse atraso.
-37. Crie uma função que utiliza setTimeout para simular um temporizador regressivo que emite um aviso a cada 5 segundos até chegar a zero.
-38. Escreva um código que utiliza setTimeout para atrasar a execução de uma função por 2 segundos.
+33. Utilize setTimeout para criar um temporizador que exiba uma contagem regressiva no console a cada segundo, começando de 10.
+34. Crie uma função que use setTimeout para simular um atraso de carregamento e retorne uma Promise que é resolvida após esse atraso.
+35. Crie uma função que utiliza setTimeout para simular um temporizador regressivo que emite um aviso a cada 5 segundos até chegar a zero.
+36. Escreva um código que utiliza setTimeout para atrasar a execução de uma função por 2 segundos.

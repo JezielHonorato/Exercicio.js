@@ -2,6 +2,4 @@
 
 import funcao from "./q17.js";
 
-console.log(funcao([1, 2, 3, 4, 5]));
-
-//nao sei pq deu erro
+console.log(funcao([7, 10, 15, 14, 25]));

@@ -1,4 +1,4 @@
-//Crie uma função assíncrona que simule a obtenção de dados de um servidor, utilizando await para simular a espera pela resposta.
+//Utilize async/await para fazer duas chamadas assíncronas sequenciais e exibir os resultados.
 
 async function funcao() {
     console.log("Solicitando dados do servidor...");
@@ -12,7 +12,7 @@ async function funcao() {
             }, 2000); 
         });
     };
-  
+
     try {
         const dados = await simularAtraso();
         console.log("Dados recebidos do servidor:", dados);

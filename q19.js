@@ -13,3 +13,5 @@ const funcao = (numero) => {
 }
 
 console.log(funcao(11))
+
+export default funcao;
