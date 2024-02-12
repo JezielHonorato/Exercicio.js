@@ -53,3 +53,9 @@
 34. Crie uma função que use setTimeout para simular um atraso de carregamento e retorne uma Promise que é resolvida após esse atraso.
 35. Crie uma função que utiliza setTimeout para simular um temporizador regressivo que emite um aviso a cada 5 segundos até chegar a zero.
 36. Escreva um código que utiliza setTimeout para atrasar a execução de uma função por 2 segundos.
+
+# Questões extras para prova:
+
+101. Utilizando destructuring, escreva uma função chamada formatarContato que aceite um objeto contato com propriedades como nome, email e telefone. A função deve extrair essas informações usando destructuring e retornar uma string formatada com essas informações. Por exemplo, se o objeto for {nome: "Ana Silva", email: "ana.silva@example.com", telefone: "123456789"}, a função deve retornar a string: "Nome: Ana Silva, Email: ana.silva@example.com, Telefone: 123456789".
+102. Utilizando arrow function, escreva uma função chamada capitalizarTitulos que use o método map para transformar uma lista de títulos de livros (strings) em uma lista com cada palavra dos títulos capitalizada. Por exemplo, se a função receber o array ["o pequeno príncipe", "dom casmurro", "a metamorfose"], ela deve retornar ["O Pequeno Príncipe", "Dom Casmurro", "A Metamorfose"].
+103. Escreva uma função chamada verificarNumero que retorne uma Promise. A função deve gerar um número aleatório entre 1 e 10. Se o número gerado for maior que 5, a Promise deve ser resolvida com a mensagem "Número alto!". Se for 5 ou menor, a Promise deve ser rejeitada com a mensagem "Número baixo!
